@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 246, 235);
+}
+
+#box-vector {
+    margin: 15px auto 45px;
+    /* background-color: antiquewhite; */
+    width: 500px;
+    height: 210px;
+    display: flex;
+}
+#box-vector img {
+    margin: 0 auto;
+    width: 210px;
+    height: 210px;
+}
+
+#info-box {
+    background-color: rgb(121, 141, 163);
+    margin: 15px auto;
+    width: 700px;
+    height: 170px;
+    border-radius: 0 0 45px 45px;
+    text-align: center;
+    box-shadow: 4px -4px 5px rgb(23, 53, 84);
+}
+#info-box h1, p {
+    color: aliceblue;
+    padding: 15px 0 5px 0;
+}
+#info-box h1 {
+    font-size: 36px;
+}
+#info-box p {
+    font-size:18px;
+}
+
+#cities {
+    width: 80px;
+    margin-top: 25px;
+    position: relative;
+    left: 50px;
+    color: rgb(0, 24, 46);
+    border-bottom: 2px solid saddlebrown;
+}
+
+/* INSERTAR LINK QUE LLEVARÁ A LA PÁGINA CON LAS RUTAS DE CARACAS. */
+#Caracas-box {
+    margin: 25px auto;
+    background-color: rgb(86, 86, 64);
+    width: 850px;
+    height: 350px;
+    border-radius: 25px;
+    display: flex;
+}
+#Caracas-box img {
+    margin: 20px auto;
+    width: 810px;
+    height: 310px;
+}

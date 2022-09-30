@@ -11,15 +11,15 @@ body {
 header {
     margin: 15px auto;
     padding: 5px;
-    width: 990px;
+    width: 1010px;
     height: auto;
     background-color: rgb(28, 48, 41);
     display: flex;
 }
 header img {
     margin: 0 auto;
-    width: 980px;
-    height: 245px;
+    width: 999px;
+    height: 299px;
 }
 /* FOTO SUPERIOR */
 
@@ -55,11 +55,27 @@ h1 {
     grid-template-columns: 560px 30px 1fr;
     background-color: aliceblue;
 }
-.inside-box {
-    /* background-color: aquamarine; */
+
+.map-box img {
+    width: 560px;
+    height: 260px;
+}
+
+.middle-box {
+    background-color: rgb(2, 47, 32);
     border: 1px solid saddlebrown;
 }
 
-.IMGs {
-    background-color: rgb(21, 38, 54);
+/* FLORESTA'S ROUTE */
+.MidImg img {
+    margin-left: 100px;
+    width: 350px;
+    height: 260px;
+}
+
+.right-box-info {
+    margin-left: 5px;
+    border: 2px solid saddlebrown;
+    width: 95%;
+    height: 260px;
 }

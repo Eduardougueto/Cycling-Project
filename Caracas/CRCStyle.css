@@ -46,7 +46,7 @@ h1 {
     display: grid;
     grid-auto-rows: 270px;
     gap: 15px;
-    background-color: rgb(129, 94, 94);
+    background-color: rgb(181, 169, 169);
 }
 /* PARTE INTERIOR DEL CONTENEDOR * 3 */
 .three_container {
@@ -75,7 +75,13 @@ h1 {
 
 .right-box-info {
     margin-left: 5px;
-    border: 2px solid saddlebrown;
+    border: 2px solid rgb(186, 40, 40);
     width: 95%;
     height: 260px;
+    padding: 50px;
+}
+.right-box-info h2 {
+    margin: 25px;
+    font-size: 28px;
+    border-bottom: 2px solid rgb(0, 136, 255);
 }

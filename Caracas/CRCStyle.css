@@ -7,20 +7,37 @@ body {
     background-color: rgb(255, 240, 210);
 }
 
+/* FOTO SUPERIOR */
 header {
     margin: 15px auto;
+    padding: 5px;
     width: 990px;
-    height: 245px;
+    height: auto;
     background-color: rgb(28, 48, 41);
+    display: flex;
+}
+header img {
+    margin: 0 auto;
+    width: 980px;
+    height: 245px;
+}
+/* FOTO SUPERIOR */
+
+h1 {
+    padding-left: 20px;
+    color: rgb(48, 9, 3);
+    box-shadow: 4px 4px 5px rgb(0, 9, 104);
+    
 }
 
+/* CONTENEDOR PRINCIPAL CENTRADO */
 .map-container {
     margin: 25px auto;
-    background-color: rgb(93, 145, 191);
+    /* background-color: rgb(93, 145, 191); */
     width: 985px;
     height: auto;
 }
-
+/* CONTENEDOR CON TRES CAJAS */
 .map-info-container {
     margin: 15px auto;
     padding: 8px;
@@ -31,11 +48,11 @@ header {
     gap: 15px;
     background-color: rgb(129, 94, 94);
 }
-
+/* PARTE INTERIOR DEL CONTENEDOR * 3 */
 .three_container {
     padding: 5px;
     display: grid;
-    grid-template-columns: 560px 40px 1fr;
+    grid-template-columns: 560px 30px 1fr;
     background-color: aliceblue;
 }
 .inside-box {

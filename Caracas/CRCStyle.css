@@ -85,3 +85,9 @@ h1 {
     font-size: 28px;
     border-bottom: 2px solid rgb(0, 136, 255);
 }
+
+.final-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

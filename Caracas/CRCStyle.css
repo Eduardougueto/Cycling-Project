@@ -7,6 +7,11 @@ body {
     background-color: rgb(255, 240, 210);
 }
 
+#main-back a {
+    text-decoration: none;
+    margin: 25px;
+    }
+
 /* FOTO SUPERIOR */
 header {
     margin: 15px auto;

@@ -11,20 +11,20 @@ body {
     margin: 15px auto 45px;
     /* background-color: antiquewhite; */
     width: 500px;
-    height: 210px;
+    height: 310px;
     display: flex;
 }
 #box-vector img {
     margin: 0 auto;
-    width: 210px;
-    height: 210px;
+    width: 290px;
+    height: 290px;
 }
 
 #info-box {
     background-color: rgb(121, 141, 163);
     margin: 15px auto;
-    width: 700px;
-    height: 170px;
+    width: 720px;
+    height: 180px;
     border-radius: 0 0 45px 45px;
     text-align: center;
     box-shadow: 4px -4px 5px rgb(23, 53, 84);
@@ -34,15 +34,15 @@ body {
     padding: 15px 0 5px 0;
 }
 #info-box h1 {
-    font-size: 36px;
+    font-size: 38px;
 }
 #info-box p {
-    font-size:18px;
+    font-size:20px;
 }
 
 #cities {
     width: 80px;
-    margin-top: 25px;
+    margin-top: 75px;
     position: relative;
     left: 50px;
     color: rgb(0, 24, 46);
